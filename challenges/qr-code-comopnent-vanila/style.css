@@ -1,0 +1,65 @@
+@import url(qr-code.css);
+
+:root {
+	/* Color */
+	--slate-900: hsl(218 44 22);
+	--slate-500: hsl(216 15 48);
+	--slate-300: hsl(212 45 89);
+
+	--white: hsl(0 0 100);
+
+
+	/* Typography */
+	--text-primary: "Outfit";
+	--text-primary-weight: bold;
+	--text-primary-size: 22px;
+	--text-primary-line-height: 120%;
+	--text-primary-letter-spacing: 0px;
+
+	--text-secondary: "Outfit";
+	--text-secondary-weight: normal;
+	--text-secondary-size: 15px;
+	--text-secondary-line-height: 140%;
+	--text-secondary-letter-spacing: 0.2px;
+
+	/* Spacing */
+	--space-500: 40px;
+	--space-300: 24px;
+	--space-200: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: var(--slate-300);
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - var(--space-300));
+}
+
+footer {
+	text-align: center;
+	font-family: var(--text-secondary);
+	font-weight: var(--text-secondary-weight);
+	font-size: var(--text-secondary-size);
+	line-height: var(--text-secondary-line-height);
+	letter-spacing: var(--text-secondary-letter-spacing);
+	color: var(--slate-500);
+
+
+}
+
+footer a {
+	color: var(--slate-900);
+	text-decoration: none;
+}

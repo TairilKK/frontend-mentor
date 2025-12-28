@@ -1,0 +1,35 @@
+.qr-code {
+	background-color: var(--white);
+	max-width: 320px;
+	max-height: 500px;
+	display: grid;
+	gap: var(--space-300);
+	padding: var(--space-200);
+	padding-bottom: var(--space-500);
+	border-radius: 20px;
+	text-align: center;
+}
+
+.qr-code--image {
+	max-width: 288px;
+	max-height: 288px;
+	border-radius: 10px;
+}
+
+.qr-code--header {
+	font-family: var(--text-primary);
+	font-weight: var(--text-primary-weight);
+	font-size: var(--text-primary-size);
+	line-height: var(--text-primary-line-height);
+	letter-spacing: var(--text-primary-letter-spacing);
+	color: var(--slate-900);
+}
+
+.qr-code--description {
+	font-family: var(--text-secondary);
+	font-weight: var(--text-secondary-weight);
+	font-size: var(--text-secondary-size);
+	line-height: var(--text-secondary-line-height);
+	letter-spacing: var(--text-secondary-letter-spacing);
+	color: var(--slate-500);
+}
